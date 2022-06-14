@@ -20,8 +20,10 @@ const app = express();
 // Mongoose to MongoDB connection configuration
 
 
+
+
 mongoose.connect(
-    process.env.MONGODB_URI || 'mongodb://localhost:27017/tutorial_cms', { useNewUrlParser: true, useUnifiedTopology: true, })
+    process.env.MONGODB_URI || process.env.PORT || 'mongodb://localhost:27017/tutorial_cms', { useNewUrlParser: true, useUnifiedTopology: true, })
     .then(response => {
         console.log("MongoDB Connected Successfully.");
     }).catch(err => {
