@@ -4,7 +4,7 @@
   "description": "Content Management System",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
   "author": "Michael Aslanidis",
   "license": "ISC",
