@@ -9,7 +9,6 @@ module.exports = {
         next();
     },
 
-    mongodb+srv://miketiger44:powerbank59@aslanidiscms.kpxtbeh.mongodb.net/?retryWrites=true&w=majority
 
 };
 
