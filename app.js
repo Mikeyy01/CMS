@@ -18,6 +18,8 @@ const app = express();
 
 
 // Mongoose to MongoDB connection configuration
+
+
 mongoose.connect(mongoDbUrl, { useNewUrlParser: true })
     .then(response => {
         console.log("MongoDB Connected Successfully.");
@@ -25,6 +27,7 @@ mongoose.connect(mongoDbUrl, { useNewUrlParser: true })
         console.log("Database connection failed.");
 });
 
+mongodb+srv://miketiger44:powerbank59@aslanidiscms.kpxtbeh.mongodb.net/?retryWrites=true&w=majority
 
 
 // express configuration

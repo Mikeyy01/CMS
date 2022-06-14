@@ -1,5 +1,6 @@
 module.exports = {
-    mongoDbUrl : 'mongodb+srv://miketiger44:<powerbank59>@aslanidiscms.kpxtbeh.mongodb.net/?retryWrites=true&w=majority',
+    mongoDbUrl : 'mongodb://localhost:27017/tutorial_cms',
+
     PORT: process.env.PORT || 3000,
     globalVariables: (req, res, next) => {
         res.locals.success_message = req.flash('success-message');
@@ -8,5 +9,8 @@ module.exports = {
         next();
     },
 
+    mongodb+srv://miketiger44:powerbank59@aslanidiscms.kpxtbeh.mongodb.net/?retryWrites=true&w=majority
 
 };
+
+
