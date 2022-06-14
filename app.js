@@ -75,6 +75,6 @@ app.use('/admin', adminRoutes);
 
 
 // Start The Server */
-app.listen(PORT, () => {
+app.listen(process.env.PORT || 3000 || PORT, () => {
     console.log(`Server is active! Port: ${PORT}`);
 });
