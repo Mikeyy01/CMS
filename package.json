@@ -8,7 +8,7 @@
     "npm": "8.1.2"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
   "author": "Michael Aslanidis",
   "license": "ISC",
